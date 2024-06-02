@@ -8,8 +8,9 @@ public class AssumptionsTeste {
 
     @Test
     void validarAlgoSomenteNoUsuarioJhonny() {
-        // Presuma que estou logado como USER jhonny
-        Assumptions.assumeTrue("jhonny".equals(System.getenv("USER")));
+        // Presuma que estou logado como USERNAME NeoJhon
+        // que é o nome do meu usuário Windows
+        Assumptions.assumeTrue("NeoJhon".equals(System.getenv("USERNAME")));
         Assertions.assertEquals(10, 5 + 5);
     }
 }

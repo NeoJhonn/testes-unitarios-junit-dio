@@ -9,7 +9,7 @@ public class CondicionaisTeste {
 
     @Test
     // verifique se a variável de ambiente USER == jhonny
-    //@EnabledIfEnvironmentVariable(named = "USER", matches = "jhonny")
+    //@EnabledIfEnvironmentVariable(named = "USERNAME", matches = "jhonny")
     //@DisabledIfEnvironmentVariable(named = "root", matches = "jhonny")
     //@EnabledOnOs(OS.LINUX)
     //@EnabledOnJre(JRE.JAVA_19)
